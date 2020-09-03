@@ -2,7 +2,7 @@
 
 You can use this repo to build new Activerecord projects
 
-:keyboard: AR Practice Part I :keyboard:
+**AR Practice Part I**
 Create a fork of this repo: https://github.com/crutell331/AR-Environment-Skeleton and complete the following deliverables
 Domain: Student-Teacher
 - A Student has a first_name (string) **DONE**
@@ -29,3 +29,15 @@ Which method(s) did you have to create yourself? Why? (edited)
     - Teacher: tenure 
 
 * You will need to create your own app/models directories
+
+**AR Practice Part II**
+Add these deliverables:
+- A Student belongs to a Teacher
+- Student#teacher should return the teacher that student belongs to
+- Teacher#students should return a list of all the students that belong to this teacher
+Make all necessary changes to satisfy these deliverables: 
+- A Student has many Teachers through GradeLevel
+- A Teacher has many Students through GradeLevel
+You should have a complete seeds file 
+Answer the following questions:
+- What changes did you make to your app? Why?
